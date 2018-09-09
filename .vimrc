@@ -123,4 +123,18 @@ Plugin 'gmarik/Vundle.vim'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-Plugin 'davidhalter/jedi-vim'
+" git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+" git clone https://github.com/Valloric/YouCompleteMe.git ~/.vim/bundle/YouCompleteMe
+" cd ~/.vim/bundle/YouCompleteMe
+" ./install.py --all
+" git clone https://github.com/majutsushi/tagbar.git
+" git clone https://github.com/scrooloose/nerdtree.git
+" git clone https://github.com/vim-scripts/taglist.vim
+"
+Plugin 'Valloric/YouCompleteMe'
+
+Plugin 'majutsushi/tagbar'
+nmap <C-m> :TagbarToggle<CR>
+Plugin 'scrooloose/nerdtree'
+map <C-n> :NERDTreeToggle<CR>
+Plugin 'vim-scripts/taglist.vim'
